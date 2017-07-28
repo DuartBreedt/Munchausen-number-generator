@@ -3,6 +3,7 @@ Generates all perfect digit-to-digit invariant which is a natural number that is
 
 ### Background
 I read about Munchausen numbers in an article on Reddit and thought that there must surely be more than just two of them. So I decided to find out if I was right or wrong.
+
 I was wrong. 
 
 ### Instructions
