@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Munchausen Generator</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<h1 class="text-center">Munchausen Generator</h1>
+			</div>
+			<div class="row">
+				<div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-body form-group">
+							<label for="maxIncrement">Maximum base value</label>
+							<input class="form-control" type="number" name="maxIncrement" id="maxIncrement" value="10" max="10" min="1" />
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-body form-group">
+							<label for="maxIncrement">Maximum exponent value</label>
+							<input class="form-control" type="number" name="maxSquares" id="maxSquares" value="15" min="1" />
+						</div>
+					</div>
+					<div class="text-right" style="margin-bottom: 20px">
+						<button onclick="startGenerator()" class="btn btn-default">Generate</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Output</h4>
+						</div>
+						<div class="panel-body">
+							<p id="output"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="algorithm.js"></script>
+</html>
